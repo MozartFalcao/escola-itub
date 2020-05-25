@@ -24,6 +24,5 @@ export class MateriaGridComponent implements OnInit {
         (error) => console.log(error)
       );
 
-      console.log(this.materiasLst)
   }
 }

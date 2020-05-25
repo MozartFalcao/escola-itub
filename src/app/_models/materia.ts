@@ -4,6 +4,7 @@ export interface Materia {
 
     id: number;
     nome: string;
+    fotoUrl: string;
     professores: [number, string];
 
 }

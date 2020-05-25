@@ -8,14 +8,12 @@ import {APP_BASE_HREF} from '@angular/common';
 
 
 import { ProfessorGridComponent } from './professor-grid/professor-grid.component';
-import { ProfessorDetailComponent } from './professor-detail/professor-detail.component';
 import { MateriaGridComponent } from './materia-grid/materia-grid.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfessorGridComponent,
-    ProfessorDetailComponent,
     MateriaGridComponent
   ],
   imports: [

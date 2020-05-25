@@ -3,6 +3,7 @@
     {
       "id": 1,
       "nome": "Matematica",
+      "fotoUrl": "../../assets/img/materias/matematica.png",
       "professores": [
         {
           "id": 0,
@@ -13,6 +14,7 @@
     {
       "id": 2,
       "nome": "Fisica",
+      "fotoUrl": "../../assets/img/materias/fisica.png",
       "professores": [
         {
           "id": 0,
@@ -23,6 +25,7 @@
     {
       "id": 3,
       "nome": "Português",
+      "fotoUrl": "../../assets/img/materias/portugues.png",
       "professores": [
         {
           "id": 1,
@@ -33,6 +36,7 @@
     {
       "id": 4,
       "nome": "Inglês",
+      "fotoUrl": "../../assets/img/materias/ingles.png",
       "professores": [
         {
           "id": 1,
@@ -44,6 +48,7 @@
     {
       "id": 5,
       "nome": "Geografia",
+      "fotoUrl": "../../assets/img/materias/geografia.png",
       "professores": [
         {
           "id": 3,
@@ -54,6 +59,7 @@
     {
       "id": 6,
       "nome": "História",
+      "fotoUrl": "../../assets/img/materias/historia.png",
       "professores": [
         {
           "id": 3,
@@ -65,6 +71,7 @@
     {
       "id": 7,
       "nome": "Química",
+      "fotoUrl": "../../assets/img/materias/quimica.png",
       "professores": [
         {
           "id": 0,
@@ -72,13 +79,14 @@
         },
         {
           "id": 4,
-          "nome": "Alexsandro Broedel"
+          "nome": "Milton Maluhy"
         }
       ]
     },
     {
       "id": 8,
       "nome": "Artes",
+      "fotoUrl": "../../assets/img/materias/art.png",
       "professores": [
         {
           "id": 0,
@@ -86,13 +94,14 @@
         },
         {
           "id": 4,
-          "nome": "Alexsandro Broedel"
+          "nome": "Milton Maluhy"
         }
       ]
     },
     {
       "id": 9,
       "nome": "Biologia",
+      "fotoUrl": "../../assets/img/materias/biologia.png",
       "professores": [
         {
           "id": 2,
@@ -100,13 +109,14 @@
         },
         {
           "id": 4,
-          "nome": "Alexsandro Broedel"
+          "nome": "Milton Maluhy"
         }
       ]
     },
     {
       "id": 10,
       "nome": "Filosofia",
+      "fotoUrl": "../../assets/img/materias/filosofia.png",
       "professores": [
         {
           "id": 2,
@@ -117,6 +127,7 @@
     {
       "id": 11,
       "nome": "Sociologia",
+      "fotoUrl": "../../assets/img/materias/sociologia.png",
       "professores": [
         {
           "id": 2,
