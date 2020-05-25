@@ -1,0 +1,132 @@
+{
+  "materias": [
+    {
+      "id": 1,
+      "nome": "Matematica",
+      "professores": [
+        {
+          "id": 0,
+          "nome": "Leila Cristiane Barboza"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Fisica",
+      "professores": [
+        {
+          "id": 0,
+          "nome": "Leila Cristiane Barboza"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Português",
+      "professores": [
+        {
+          "id": 1,
+          "nome": "Tatiana Grecco"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Inglês",
+      "professores": [
+        {
+          "id": 1,
+          "nome": "Tatiana Grecco"
+        }
+      ]
+
+    },
+    {
+      "id": 5,
+      "nome": "Geografia",
+      "professores": [
+        {
+          "id": 3,
+          "nome": "Adriano Cabral Volpini"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "História",
+      "professores": [
+        {
+          "id": 3,
+          "nome": "Adriano Cabral Volpini"
+        }
+      ]
+      
+    },
+    {
+      "id": 7,
+      "nome": "Química",
+      "professores": [
+        {
+          "id": 0,
+          "nome": "Leila Cristiane Barboza"
+        },
+        {
+          "id": 4,
+          "nome": "Alexsandro Broedel"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Artes",
+      "professores": [
+        {
+          "id": 0,
+          "nome": "Leila Cristiane Barboza"
+        },
+        {
+          "id": 4,
+          "nome": "Alexsandro Broedel"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Biologia",
+      "professores": [
+        {
+          "id": 2,
+          "nome": "Claudia Politanski"
+        },
+        {
+          "id": 4,
+          "nome": "Alexsandro Broedel"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Filosofia",
+      "professores": [
+        {
+          "id": 2,
+          "nome": "Claudia Politanski"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Sociologia",
+      "professores": [
+        {
+          "id": 2,
+          "nome": "Claudia Politanski"
+        },
+        {
+          "id": 1,
+          "nome": "Tatiana Grecco"
+        }
+      ]
+    }
+  ]
+}

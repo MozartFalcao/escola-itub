@@ -1,0 +1,439 @@
+<div class="row justify-content-center">
+  <!-- Portfolio Items-->
+  <!-- prof 0 -->
+  <div class="col-md-6 col-lg-4 mb-5">
+    <div
+      class="portfolio-item mx-auto"
+      data-toggle="modal"
+      data-target="#portfolioModal0"
+    >
+      <div
+        class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+      >
+        <div class="portfolio-item-caption-content text-center text-white">
+          <!-- <i class="fas fa-plus fa-3x"></i> -->
+          <i>{{ professoresLst.professores[0].nome }}</i>
+        </div>
+      </div>
+      <img
+        class="img-fluid"
+        src="assets/img/portfolio/cabin.png"
+        alt="Log Cabin"
+      />
+    </div>
+  </div>
+  <!-- prof 1 -->
+  <div class="col-md-6 col-lg-4 mb-5">
+    <div
+      class="portfolio-item mx-auto"
+      data-toggle="modal"
+      data-target="#portfolioModal1"
+    >
+      <div
+        class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+      >
+        <div class="portfolio-item-caption-content text-center text-white">
+          <!-- <i class="fas fa-plus fa-3x"></i> -->
+          <i>{{ professoresLst.professores[1].nome }}</i>
+        </div>
+      </div>
+      <img
+        class="img-fluid"
+        src="assets/img/portfolio/cabin.png"
+        alt="Log Cabin"
+      />
+    </div>
+  </div>
+  <!-- prof 2 -->
+  <div class="col-md-6 col-lg-4 mb-5">
+    <div
+      class="portfolio-item mx-auto"
+      data-toggle="modal"
+      data-target="#portfolioModal2"
+    >
+      <div
+        class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+      >
+        <div class="portfolio-item-caption-content text-center text-white">
+          <!-- <i class="fas fa-plus fa-3x"></i> -->
+          <i>{{ professoresLst.professores[2].nome }}</i>
+        </div>
+      </div>
+      <img
+        class="img-fluid"
+        src="assets/img/portfolio/cabin.png"
+        alt="Log Cabin"
+      />
+    </div>
+  </div>
+  <!-- prof 3 -->
+  <div class="col-md-6 col-lg-4 mb-5">
+    <div
+      class="portfolio-item mx-auto"
+      data-toggle="modal"
+      data-target="#portfolioModal3"
+    >
+      <div
+        class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+      >
+        <div class="portfolio-item-caption-content text-center text-white">
+          <!-- <i class="fas fa-plus fa-3x"></i> -->
+          <i>{{ professoresLst.professores[3].nome }}</i>
+        </div>
+      </div>
+      <img
+        class="img-fluid"
+        src="assets/img/portfolio/cabin.png"
+        alt="Log Cabin"
+      />
+    </div>
+  </div>
+  <!-- prof 4 -->
+  <div class="col-md-6 col-lg-4 mb-5">
+    <div
+      class="portfolio-item mx-auto"
+      data-toggle="modal"
+      data-target="#portfolioModal4"
+    >
+      <div
+        class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+      >
+        <div class="portfolio-item-caption-content text-center text-white">
+          <!-- <i class="fas fa-plus fa-3x"></i> -->
+          <i>{{ professoresLst.professores[4].nome }}</i>
+        </div>
+      </div>
+      <img
+        class="img-fluid"
+        src="assets/img/portfolio/cabin.png"
+        alt="Log Cabin"
+      />
+    </div>
+  </div>
+  <!-- Portfolio Modal-->
+  <!-- modal 1 -->
+  <div
+    class="portfolio-modal modal fade"
+    id="portfolioModal0"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="#portfolioModal0Label"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button
+          class="close"
+          type="button"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true"><i class="fas fa-times"></i></span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title-->
+                <h2 class="portfolio-modal-title text-secondary mb-0">
+                  {{ professoresLst.professores[0].nome }}
+                </h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image-->
+                <img
+                  class="img-fluid rounded mb-5"
+                  src="assets/img/portfolio/cabin.png"
+                  alt="Log Cabin"
+                />
+                <!-- Portfolio Modal - Text-->
+                <span>Email: </span>
+                <span>{{ professoresLst.professores[0].email }} </span>
+                <br />
+                <span>Telefone: </span>
+                <span>{{ professoresLst.professores[0].contato }} </span>
+                <br />
+                <span>Matérias lecionadas:</span>
+                <span *ngFor="let ma of professoresLst.professores[0].materia"
+                  ><a> - </a> {{ ma.nome }}
+                </span>
+                <p class="mb-5"></p>
+
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal 1 -->
+  <div
+    class="portfolio-modal modal fade"
+    id="portfolioModal1"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="#portfolioModal0Label"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button
+          class="close"
+          type="button"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true"><i class="fas fa-times"></i></span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title-->
+                <h2 class="portfolio-modal-title text-secondary mb-0">
+                  {{ professoresLst.professores[1].nome }}
+                </h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image-->
+                <img
+                  class="img-fluid rounded mb-5"
+                  src="assets/img/portfolio/cabin.png"
+                  alt="Log Cabin"
+                />
+                <!-- Portfolio Modal - Text-->
+                <span>Email: </span>
+                <span>{{ professoresLst.professores[1].email }} </span>
+                <br />
+                <span>Telefone: </span>
+                <span>{{ professoresLst.professores[1].contato }} </span>
+                <br />
+                <span>Matérias lecionadas:</span>
+                <span *ngFor="let ma of professoresLst.professores[1].materia"
+                  ><a> - </a> {{ ma.nome }}
+                </span>
+                <p class="mb-5"></p>
+
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal 2 -->
+
+  <div
+    class="portfolio-modal modal fade"
+    id="portfolioModal2"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="#portfolioModal0Label"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button
+          class="close"
+          type="button"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true"><i class="fas fa-times"></i></span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title-->
+                <h2 class="portfolio-modal-title text-secondary mb-0">
+                  {{ professoresLst.professores[2].nome }}
+                </h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image-->
+                <img
+                  class="img-fluid rounded mb-5"
+                  src="assets/img/portfolio/cabin.png"
+                  alt="Log Cabin"
+                />
+                <!-- Portfolio Modal - Text-->
+                <span>Email: </span>
+                <span>{{ professoresLst.professores[2].email }} </span>
+                <br />
+                <span>Telefone: </span>
+                <span>{{ professoresLst.professores[2].contato }} </span>
+                <br />
+                <span>Matérias lecionadas:</span>
+                <span *ngFor="let ma of professoresLst.professores[2].materia"
+                  ><a> - </a> {{ ma.nome }}
+                </span>
+                <p class="mb-5"></p>
+
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal 3 -->
+
+  <div
+    class="portfolio-modal modal fade"
+    id="portfolioModal3"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="#portfolioModal0Label"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button
+          class="close"
+          type="button"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true"><i class="fas fa-times"></i></span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title-->
+                <h2 class="portfolio-modal-title text-secondary mb-0">
+                  {{ professoresLst.professores[3].nome }}
+                </h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image-->
+                <img
+                  class="img-fluid rounded mb-5"
+                  src="assets/img/portfolio/cabin.png"
+                  alt="Log Cabin"
+                />
+                <!-- Portfolio Modal - Text-->
+                <span>Email: </span>
+                <span>{{ professoresLst.professores[3].email }} </span>
+                <br />
+                <span>Telefone: </span>
+                <span>{{ professoresLst.professores[3].contato }} </span>
+                <br />
+                <span>Matérias lecionadas:</span>
+                <span *ngFor="let ma of professoresLst.professores[3].materia"
+                  ><a> - </a> {{ ma.nome }}
+                </span>
+                <p class="mb-5"></p>
+
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal 4 -->
+
+  <div
+    class="portfolio-modal modal fade"
+    id="portfolioModal4"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="#portfolioModal0Label"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button
+          class="close"
+          type="button"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true"><i class="fas fa-times"></i></span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title-->
+                <h2 class="portfolio-modal-title text-secondary mb-0">
+                  {{ professoresLst.professores[4].nome }}
+                </h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image-->
+                <img
+                  class="img-fluid rounded mb-5"
+                  src="assets/img/portfolio/cabin.png"
+                  alt="Log Cabin"
+                />
+                <!-- Portfolio Modal - Text-->
+                <span>Email: </span>
+                <span>{{ professoresLst.professores[4].email }} </span>
+                <br />
+                <span>Telefone: </span>
+                <span>{{ professoresLst.professores[4].contato }} </span>
+                <br />
+                <span>Matérias lecionadas:</span>
+                <span *ngFor="let ma of professoresLst.professores[4].materia"
+                  ><a> - </a> {{ ma.nome }}
+                </span>
+                <p class="mb-5"></p>
+
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
