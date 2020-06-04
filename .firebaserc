@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "spa-escola-itub"
+  },
+  "targets": {
+    "spa-escola-itub": {
+      "hosting": {
+        "spa-escola-Itub": [
+          "spa-escola-itub"
+        ]
+      }
+    }
   }
 }

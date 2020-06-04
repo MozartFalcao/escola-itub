@@ -1,8 +1,5 @@
 <div class="row justify-content-center">
-  <div
-    class="col-md-6 col-lg-4 mb-5"
-    *ngFor="let prof of professoresLst.professores"
-  >
+  <div class="col-md-6 col-lg-4 mb-5" *ngFor="let prof of professoresFire">
     <button type="button" class="btn" (click)="openModal(professor)">
       <div
         class="portfolio-item mx-auto"
@@ -25,7 +22,7 @@
           <div class="modal-body text-center">
             <div class="container">
               <div class="row justify-content-center">
-                <div class="col-lg-8">
+                <div class="col-md-8">
                   <!-- Portfolio Modal - Title-->
                   <h2 class="portfolio-modal-title text-secondary mb-0">
                     {{ prof.nome }}
@@ -53,7 +50,7 @@
                     <br />
                     <span>Matérias lecionadas:</span>
                     <span *ngFor="let ma of prof.materia"
-                      >&nbsp;{{ ma.nome }}<a> - </a> 
+                      >&nbsp;{{ ma.nome }}<a> - </a>
                     </span>
                     <p class="mb-5"></p>
                   </div>
@@ -69,3 +66,17 @@
     </ng-template>
   </div>
 </div>
+
+<ng-template #customLoadingTemplate>
+  <div class="d-flex justify-content-center">
+    <div class="spinner-border" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+</ng-template>
+
+<ngx-loading
+  [show]="loading"
+  [config]="{}"
+  [template]="customLoadingTemplate"
+></ngx-loading>

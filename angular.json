@@ -26,7 +26,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": ["src/assets/js/scripts.js"]
+            "scripts": [
+              "src/assets/js/scripts.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -117,8 +119,13 @@
               "devServerTarget": "spa-escola-Itub:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "spa-escola-Itub"
 }

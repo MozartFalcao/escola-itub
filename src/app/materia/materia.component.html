@@ -1,7 +1,7 @@
 <div class="row justify-content-center">
   <div
     class="col-md-6 col-lg-4 mb-5"
-    *ngFor="let mate of materiasLst.materias"
+    *ngFor="let mate of materiasFire"
   >
     <button type="button" class="btn" (click)="openModal(materia)">
       <div
@@ -63,3 +63,16 @@
       </ng-template>
   </div>
 </div>
+<ng-template #customLoadingTemplate>
+  <div class="d-flex justify-content-center">
+    <div class="spinner-border" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+</ng-template>
+
+<ngx-loading
+  [show]="loading"
+  [config]="{}"
+  [template]="customLoadingTemplate"
+></ngx-loading>
